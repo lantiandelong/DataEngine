@@ -27,3 +27,4 @@ scoreAll['和']=scoreAll['数学']+scoreAll['语文']+scoreAll['英语']
 scoreAll=scoreAll.sort_values('和',ascending=False)
 #
 #df['maxscore']=df.max(axis=1)
+print(scoreAll)#输出结果
